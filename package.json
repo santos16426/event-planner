@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky || true"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -30,5 +30,11 @@
     "prettier": "^3.2.5",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run build"
+    }
   }
 }
