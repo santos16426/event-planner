@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky || true"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -22,6 +22,7 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
+    "eslint-plugin-storybook": "^0.6.15",
     "husky": "^9.0.11",
     "postcss": "^8",
     "prettier": "^3.2.5",
