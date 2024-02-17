@@ -1,5 +1,11 @@
 import { SignIn } from '@clerk/nextjs';
 
 export default function Page() {
-  return <SignIn />;
+  return (
+    <main className="relative flex flex-col min-h-screen">
+      <div className="flex-grow flex-1 flex justify-center items-center">
+        <SignIn />
+      </div>
+    </main>
+  );
 }
