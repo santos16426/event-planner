@@ -11,48 +11,6 @@ export default function page() {
       location: 'Philippines',
       thumbnail: '/images/mockEvent/img1.jpg',
     },
-    {
-      id: '1',
-      title: 'Billy and Rica',
-      type: 'Wedding',
-      location: 'Philippines',
-      thumbnail: '/images/mockEvent/img1.jpg',
-    },
-    {
-      id: '1',
-      title: 'Billy and Rica',
-      type: 'Wedding',
-      location: 'Philippines',
-      thumbnail: '/images/mockEvent/img1.jpg',
-    },
-    {
-      id: '1',
-      title: 'Billy and Rica',
-      type: 'Wedding',
-      location: 'Philippines',
-      thumbnail: '/images/mockEvent/img1.jpg',
-    },
-    {
-      id: '1',
-      title: 'Billy and Rica',
-      type: 'Wedding',
-      location: 'Philippines',
-      thumbnail: '/images/mockEvent/img1.jpg',
-    },
-    {
-      id: '1',
-      title: 'Billy and Rica',
-      type: 'Wedding',
-      location: 'Philippines',
-      thumbnail: '/images/mockEvent/img1.jpg',
-    },
-    {
-      id: '1',
-      title: 'Billy and Rica',
-      type: 'Wedding',
-      location: 'Philippines',
-      thumbnail: '/images/mockEvent/img1.jpg',
-    },
   ];
   return (
     <div className="flex flex-col gap-10">
