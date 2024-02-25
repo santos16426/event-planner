@@ -1,5 +1,4 @@
 import '@/app/globals.scss';
-import Header from '@/components/site/Header';
 import { cn } from '@/lib/utils';
 import { ClerkProvider } from '@clerk/nextjs';
 import type { Metadata } from 'next';
@@ -21,7 +20,6 @@ export default function RootLayout({
       <html lang="en" className="h-full">
         <body className={cn('relative h-full antialiased', inter.className)}>
           <main className="relative flex flex-col min-h-screen">
-            <Header />
             <div className="flex-grow flex-1 -mt-24">{children}</div>
           </main>
         </body>

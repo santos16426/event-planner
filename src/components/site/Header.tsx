@@ -1,12 +1,10 @@
-import { UserButton, auth } from '@clerk/nextjs';
+import { UserButton, useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 import NavItems from './NavItems';
 
-async function Header() {
-  const { userId } = await auth();
-  const isAuth = !!userId;
-
+function Header() {
+  const { isSignedIn } = useUser();
   return (
     <div className="sticky z-50 top-0 inset-x-0 h-full">
       <header className="relative">
@@ -26,7 +24,7 @@ async function Header() {
                 <Link href="/sign-in">
                   <Button variant={'outline'}>Get Started</Button>
                 </Link>
-                {!isAuth && (
+                {!isSignedIn && (
                   <Link href="/sign-in">
                     <Button>Login</Button>
                   </Link>
