@@ -18,7 +18,7 @@ export default function page() {
         <p className="text-2xl font-bold">Upcoming Event</p>
         <Input placeholder="Search an event" className="w-fit" />
       </div>
-      <div className="h-full w-full items-start justify-start relative flex flex-row flex-wrap gap-y-20 gap-x-2">
+      <div className="h-full w-full items-start justify-start relative flex flex-row flex-wrap gap-y-20 gap-x-2 ">
         {events.map((evt) => (
           <EventCardContainer key={evt.id} {...evt} />
         ))}

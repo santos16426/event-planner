@@ -21,7 +21,7 @@ function Header() {
                 <NavItems />
               </div>
               <div className="flex flex-row gap-2">
-                <Link href="/sign-in">
+                <Link href="/dashboard">
                   <Button variant={'outline'}>Get Started</Button>
                 </Link>
                 {!isSignedIn && (

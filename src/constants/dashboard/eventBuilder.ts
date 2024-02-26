@@ -8,12 +8,12 @@ export const dashboard = [
     hidden: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/magic-wand.svg',
         title: 'Edit Website',
         href: '/edit-website',
       },
       {
-        icon: '',
+        icon: '/images/icons/stereo-glasses.svg',
         title: 'View Website',
         href: '/preview-website',
       },
@@ -28,7 +28,7 @@ export const dashboard = [
     hidden: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/gift-thin.svg',
         title: 'Gift Registry',
         href: '/gift-registry',
       },
@@ -43,12 +43,12 @@ export const dashboard = [
     hidden: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/guests.svg',
         title: 'Guest List',
         href: '/guest-list',
       },
       {
-        icon: '',
+        icon: '/images/icons/rsvp.svg',
         title: 'Manage RSVP',
         href: '/rsvp',
       },
@@ -63,22 +63,22 @@ export const dashboard = [
     hidden: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/gift-card.svg',
         title: 'Invitations',
         href: '/invitations',
       },
       {
-        icon: '',
+        icon: '/images/icons/std.svg',
         title: 'Save the Dates',
         href: '/save-the-dates',
       },
       {
-        icon: '',
+        icon: '/images/icons/file-pencil.svg',
         title: 'Edit Invitation',
         href: '/edit-card',
       },
       {
-        icon: '',
+        icon: '/images/icons/send.svg',
         title: 'Send Invitation',
         href: '/send',
       },
@@ -91,7 +91,7 @@ export const dashboard = [
     canBeDisabled: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/table-options.svg',
         title: 'Edit Event Details',
         href: '/event-details',
       },
@@ -104,12 +104,12 @@ export const dashboard = [
     canBeDisabled: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/building-store.svg',
         title: 'Suppliers List',
         href: '/suppliers',
       },
       {
-        icon: '',
+        icon: '/images/icons/tag-starred.svg',
         title: 'Suggestions',
         href: '/suppliers-suggestions',
       },
@@ -122,7 +122,7 @@ export const dashboard = [
     canBeDisabled: false,
     links: [
       {
-        icon: '',
+        icon: '/images/icons/list-checks-thin.svg',
         title: 'Checklist',
         href: '/checklist',
       },

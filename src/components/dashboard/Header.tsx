@@ -9,7 +9,7 @@ function Header() {
           <div className="flex justify-between h-20 items-center mx-4 lg:mx-10">
             {/* TODO: Mobile Nav */}
             <div className="flex">
-              <Link href="/">
+              <Link href="/dashboard">
                 <p className="font-bold text-2xl">JoyLike</p>
               </Link>
             </div>
